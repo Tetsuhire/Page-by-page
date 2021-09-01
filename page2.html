@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<h1>Формы</h1>
+		<meta name="description" content="Демонстрационный проект, по изучению верстки веб-сайтов">
+		<meta http-equiv="author" content="Брагин М.Р.">
+	</head>
+	<body>
+		<p>На этой странице давайте потестим немного различных форм</p>
+		<form action="http://www.vtopky.vse" method="get">
+			<p>Ну, почалось</p>
+			<p>Имя пользователя
+				<input type="text" name="username" size="15" maxlenght="30" required="required"/>
+			</p>
+			<p>Ваша почта
+				<input type="email" name="pochta" size="15" maxlenght="30"/>
+			</p>
+			<p>Пароль
+				<input type="password" name="password" size="15" maxlenght="30"/>
+			</p>
+			<input type="submit" value="Отправить"/>
+		</form>
+		<form action="http://www.to-chto-nikto-ne-prochitaet.com" method="get">			
+			<p>Что вы думаете о данном сайте?</p>
+			<textarea name="comments" cols"20" rows="4">Ваше мнение очень важно для нас...</textarea>
+			<fieldset>
+				<legend>На сколько вы оцените данный сайт?</legend>
+				<input type="checkbox" name="zacenka" value="true"/>Да
+				<input type="checkbox" name="zacenka" value="false"/>Нет
+				<input type="checkbox" name="zacenka" value="true"/>Да
+			</fieldset>
+				<p>Выберите ваш пол</p>
+			<select name="male">
+				<option value="male">Androgyne</option>
+				<option value="male">Androgynous</option>
+				<option value="male">Bigender</option>
+				<option value="male">Cisgender Male</option>
+				<option value="male">Cis Male</option>
+				<option value="male">Cis Female</option>
+				<option value="male">Cis Woman</option>
+				<option value="male">Cisgender</option>
+				<option value="male">Cisgender Woman</option>
+				<option value="male">Female to Male</option>
+				<option value="male">FTM</option>
+				<option value="male">Gender Fluid</option>
+				<option value="male">Gender Nonconforming</option>
+				<option value="male">Intersex</option>
+				<option value="female">Male to Female</option>
+				<option value="female">MTF</option>
+				<option value="female">Neither</option>
+				<option value="female">Trans Male</option>
+				<option value="female">Trans Female</option>
+				<option value="female">Trans Person</option>
+				<option value="female">Transexual Female</option>
+				<option value="female">Transexual Male</option>
+				<option value="female">Transexual Man</option>
+				<option value="female">Transgender Man</option>
+				<option value="female">Transgender Woman</option>
+				<option value="female">Transmasculine</option>
+				<option value="female">Two-spirit</option>
+				<option value="male">MTFKR</option>
+				<option value="female">Attack Gelicopter</option>
+				<option value="female">Monster Track</option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+		</form>
+		<p>Если у вас много интересных файлов, то можете ими поделиться, мы обязательно посмотрим что же нам прислали.</p>
+		<form action="http://www.ocherednaya-pomoika.com" method="post">
+			<input type="file" name="rubbish"/><br />
+		</form>
+		<label>Просто кнопочка <button>Тык!</button></label>
+		<style type="text/css">
+			button:active{
+				color:red;
+				background-color:cyan;
+			}
+		</style>
+		<hr />
+		<a href="page3.html">Следующая страница</a>
+	</body>
+	<footer>
+		<address>
+			<p><a href="mailto:stillkidman@gmail.com">Моя почтовая  почта</a></p>
+			<p>г. Нижний Новгород, ул. Левобережная, д. 5</p>
+		</address>
+	</footer>
+</html>
