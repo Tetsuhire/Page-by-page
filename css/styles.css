@@ -1,0 +1,24 @@
+h1{
+    background-color: DarkCyan;
+}
+h3{
+    text-shadow: 2px 2px 7px #666666;
+}
+.cutie{
+    background-color: rgba(197, 147, 38, 0.5);
+}
+#kek{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body>p{
+    text-indent: 20px;
+    text-align: justify;
+}
+body{
+    font-family:arial;
+    background-color: rgba(185,179,175);
+    padding: 20px;
+}
+p.first_p::first-line{
+    font-style: italic;
+}
